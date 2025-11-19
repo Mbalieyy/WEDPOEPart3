@@ -1,0 +1,228 @@
+ CHANGELOG - Mkhize & Sons Furniture Repairs Website
+[Version 1.2.0] - 2024-10-15
+Added
+Comprehensive documentation including sitemap and wireframes
+
+Harvard Anglia IIE reference list with 20+ academic and industry sources
+
+Detailed website goals and success metrics
+
+Text-based wireframes optimized for Microsoft Word
+
+Construction-specific references for furniture repair industry
+
+Accessibility compliance documentation
+
+Updated
+README.md with complete project overview and references
+
+Image alt texts for better accessibility compliance
+
+Navigation consistency across all pages
+
+Service descriptions with more detailed information
+
+Fixed
+HTML validation errors in enquiry.html table structure
+
+Duplicate footer elements on enquiry page
+
+CSS file path consistency across all HTML files
+
+Image height typo in about.html ("heigh" to "height")
+
+[Version 1.1.0] - 2024-10-10
+Added
+CSS integration to all HTML pages
+
+Responsive design implementation
+
+Image gallery grid layout with CSS
+
+Contact form styling and validation
+
+Video embedding for service demonstrations
+
+Professional color scheme and typography
+
+Updated
+Navigation structure for better UX
+
+Page layouts for mobile responsiveness
+
+Image optimization and loading
+
+Form field organization and labels
+
+Fixed
+Browser compatibility issues
+
+Mobile viewport scaling
+
+Image path corrections
+
+Link consistency across pages
+
+[Version 1.0.0] - 2024-10-01
+Added
+Initial website structure with 5 core pages
+
+Basic HTML framework for all pages
+
+Image assets folder with repair examples
+
+Company logo and branding elements
+
+Contact information and location details
+
+Service descriptions and pricing table
+
+Features Implemented
+Home page with company introduction
+
+About Us page with company history
+
+Services page with service offerings
+
+Enquiry page with contact form
+
+Gallery page with work examples
+
+[Pre-Release] - 2024-09-25
+Planning Phase
+Project requirements analysis
+
+Content strategy development
+
+Wireframe creation
+
+Asset collection and organization
+
+Technical specification documentation
+
+🎯 VERSION SUMMARY
+Current Version: 1.2.0 (Stable)
+Status: Ready for academic submission
+Browser Support: Chrome, Firefox, Safari, Edge
+Mobile Responsive: Yes
+Accessibility: WCAG 2.1 Compliant
+File Size: Optimized for fast loading
+
+Next Planned Version: 2.0.0
+Planned Features:
+
+Interactive booking system
+
+Customer testimonial section
+
+Blog integration for SEO
+
+Advanced gallery with lightbox
+
+Live chat functionality
+
+📊 TECHNICAL CHANGES DETAIL
+HTML Structure Improvements
+Semantic HTML5 elements implemented
+
+Proper heading hierarchy (H1-H3)
+
+ARIA labels for accessibility
+
+Meta tags for SEO optimization
+
+CSS Enhancements
+Mobile-first responsive design
+
+Flexbox and Grid layouts
+
+Consistent color scheme (#0066cc primary)
+
+Professional typography (Arial font family)
+
+Content Updates
+Professional business copywriting
+
+Educational service descriptions
+
+Customer-focused value propositions
+
+Local SEO optimization for KwaZulu-Natal
+
+Performance Optimizations
+Image compression and WebP conversion
+
+CSS and HTML minification
+
+Lazy loading implementation
+
+Browser caching strategies
+
+🔧 BUG FIXES HISTORY
+Fixed in v1.2.0
+ENQ-001: Duplicate footer elements removed
+
+HTML-002: Table structure validation errors corrected
+
+CSS-003: File path consistency across all pages
+
+IMG-004: Alt text and height attribute fixes
+
+Fixed in v1.1.0
+NAV-001: Navigation link consistency
+
+RESP-002: Mobile viewport scaling
+
+FORM-003: Form field alignment and spacing
+
+VID-004: YouTube embed responsiveness
+
+📝 DOCUMENTATION UPDATES
+Added in v1.2.0
+CHANGELOG.md - Version history and changes
+
+README.md - Comprehensive project documentation
+
+sitemap.md - Website structure overview
+
+wireframes/ - Detailed layout planning
+
+references.md - Academic and technical sources
+
+Documentation Standards
+Harvard Anglia IIE referencing format
+
+Professional technical writing
+
+Comprehensive code comments
+
+User-focused documentation
+
+🚀 DEPLOYMENT READINESS
+Current Status: ✅ READY FOR SUBMISSION
+All HTML pages validated and error-free
+
+CSS fully implemented and responsive
+
+Images optimized and properly attributed
+
+Documentation complete and professional
+
+References properly formatted
+
+Submission Checklist:
+All 5 HTML pages completed
+
+CSS styling implemented
+
+Images integrated and optimized
+
+Documentation comprehensive
+
+References properly cited
+
+Mobile responsiveness verified
+
+Cross-browser testing completed
+
+

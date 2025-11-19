@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding and viewport for responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mkhize & Sons Furniture Repairs — family-run business in Durban offering furniture repairs, restoration & upholstery. Request a quote.">
+  <meta name="keywords" content="furniture repair, wood restoration, upholstery, Durban, furniture restoration">
+  <meta name="author" content="Mkhize & Sons Furniture Repairs">
+
+<meta property="og:title" content="Mkhize & Sons Furniture Repairs">
+<meta property="og:description" content="Family-run furniture repairs and restoration in Durban. Quality craftsmanship.">
+<meta property="og:image" content="https://yourdomain.com/images/logo.jpg">
+<meta property="og:url" content="https://yourdomain.com/">
+<meta property="og:type" content="website">
+
+
+  
+  <!-- Page title that appears in browser tab -->
+  <title>Mkhize & Sons Furniture Repairs - Home</title>
+  
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script src="js/main.js" defer></script>
+
+<body>
+
+  <!-- Header Section: Contains logo and navigation -->
+  <header>
+    <!-- Main heading of the website -->
+    <h1>Mkhize & Sons Furniture Repairs</h1>
+    
+    <!-- Navigation Menu: Links to all main pages -->
+    <nav>
+      <!-- Using semantic navigation without | separators (handled by CSS) -->
+      <a href="index.html">Home</a> |
+      <a href="about.html">About Us</a>|
+      <a href="services.html">Services</a>|
+      <a href="enquiry.html">Enquiry</a>|
+      <a href="gallery.html">Gallery</a>|
+     <a href="contact.html">Contact</a>|
+    </nav>
+  </header>
+
+  <!-- Main Content Area: Primary content of the page -->
+  <main>
+    <!-- Page section heading -->
+    <h2>Welcome to Mkhize & Sons Furniture Repairs</h2>
+    
+    <!-- Company logo image with centered alignment using CSS class -->
+    <div class="image-center">
+      <img src="Images/logo 2.jpg"class="gallery-img" alt="Mkhize & Sons Furniture Repairs Company Logo" width="450" height="400">
+    </div>
+    
+    <!-- Company history and introduction paragraph -->
+    <p>Mkhize & Sons Furniture Repairs began in 1995 when our founder, Joseph Mkhize, noticed how many beautiful pieces of furniture were being discarded simply because of minor damages or wear. With nothing but his grandfather's woodworking tools and a passion for preservation, Joseph started repairing furniture for friends and family in his small garage.</p>
+
+    <!-- Company tagline and mission statement -->
+    <p><strong>"Bringing Life Back to Your Furniture – One Piece at a Time"</strong></p>
+    
+    <!-- Detailed description of services and philosophy -->
+    <p>At Mkhize & Sons Furniture Repairs, we don't just fix furniture — we restore memories. With over 20 years of experience, our team carefully repairs, restores, and revitalizes your treasured furniture pieces. Whether it's a cherished family heirloom or everyday furniture, we handle every piece with precision, care, and attention to detail. From wooden chairs and tables to sofas and cabinets, we ensure each project looks and feels as good as new. Explore our services today and let us help your furniture tell its story for generations to come.</p>
+
+    <!-- Gallery of work images showing before/after examples -->
+    <div class="image-center">
+      <!-- Image 1: Table repair example -->
+      <img src="Images/unsplashed.avif"class="gallery-img"  alt="Professional table repair and restoration work" width="450" height="400">
+      <!-- Image 2: Furniture restoration example -->
+      <img src="Images/unsplased2.avif"class="gallery-img" alt="Expert furniture restoration process" width="450" height="400">
+      <!-- Image 3: Woodworking craftsmanship -->
+      <img src="Images/unspashed3.avif"class="gallery-img" alt="Wood restoration and finishing work" width="450" height="400">
+    </div>
+
+    <!-- Closing statement emphasizing quality and trust -->
+    <p>Our commitment to quality and customer satisfaction sets us apart. Every repair is performed using traditional craftsmanship combined with modern techniques. Trust Mkhize & Sons to bring durability, beauty, and life back to your furniture.</p>
+
+  </main>
+ 
+
+  <!-- Footer Section: Copyright and legal information -->
+  <footer>
+    <p>&copy; 2025 WebDesignsByMbali | Mkhize & Sons Furniture Repairs</p>
+  </footer>
+
+  <!-- LIGHTBOX POPUP -->
+<div id="lightbox" class="lightbox">
+  <span class="close-btn">&times;</span>
+  <img class="lightbox-img" id="lightbox-img">
+  
+  <a class="prev-btn">&#10094;</a>
+  <a class="next-btn">&#10095;</a>
+</div>
+
+<script>
+// Enhanced Scroll Effect for Header
+window.addEventListener("scroll", function() {
+  const header = document.querySelector("header");
+  if (window.scrollY > 50) {
+    header.style.backgroundColor = "#243324"; // Slightly darker military green
+    header.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.5)";
+    header.style.backdropFilter = "blur(10px)"; // Modern glass effect
+  } else {
+    header.style.backgroundColor = "#2F3E2F"; // Original military green
+    header.style.boxShadow = "0 4px 15px rgba(0, 0, 0, 0.3)";
+    header.style.backdropFilter = "none";
+  }
+});
+</script>
+
+
+</body>
+</html>

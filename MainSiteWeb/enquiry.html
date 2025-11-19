@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Document setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a furniture repair quote from Mkhize & Sons. Get professional estimates for wood restoration, antique repairs, and general furniture services in Durban and KwaZulu-Natal.">
+  <meta name="keywords" content="furniture repair quote, wood restoration estimate, antique furniture repair cost, Durban furniture services, KZN furniture restoration pricing">
+  <meta name="author" content="Mkhize & Sons Furniture Repairs">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Get a Quote - Mkhize & Sons Furniture Repairs">
+  <meta property="og:description" content="Request a professional quote for furniture repairs and restoration services. Quality craftsmanship with transparent pricing.">
+  <meta property="og:image" content="Images/logo 2.jpg">
+  <meta property="og:url" content="https://yourdomain.com/enquiry.html">
+  <meta property="og:type" content="website">
+
+  <title>Request a Quote - Mkhize & Sons Furniture Repairs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Mkhize & Sons Furniture Repairs</h1>
+    <nav>
+      <a href="index.html">Home</a>|
+      <a href="about.html">About Us</a>|
+      <a href="services.html">Services</a>|
+      <a href="enquiry.html">Enquiry</a>|
+      <a href="gallery.html">Gallery</a>|
+      <a href="contact.html">Contact</a>|
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h2>Request a Quote</h2>
+    <p>Please fill in your details below, and we'll provide you with an estimated cost and availability for your furniture repair project. We'll get back to you within 2 hours with a detailed quote.</p>
+
+    <!-- Enquiry Form -->
+    <form id="enquiryForm" action="https://formspree.io/f/your-form-id-here" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name" minlength="2" maxlength="50">
+        <span class="error-message" id="nameError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        <span class="error-message" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required placeholder="+27 71 000 0000" pattern="[0-9+\-\s()]{10,}">
+        <span class="error-message" id="phoneError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="service">Service Needed *</label>
+        <select id="service" name="service" required>
+          <option value="">-- Select a Service --</option>
+          <option value="general">General Repair</option>
+          <option value="wood">Wood Restoration</option>
+          <option value="reupholstery">Reupholstery Referral</option>
+          <option value="antique">Antique Restoration</option>
+          <option value="assembly">Furniture Assembly</option>
+          <option value="other">Other</option>
+        </select>
+        <span class="error-message" id="serviceError"></span>
+      </div>
+
+      <!-- Dynamic Service Cost Display -->
+      <div class="service-cost" id="serviceCost"></div>
+
+      <div class="form-group">
+        <label for="urgency">Urgency Level</label>
+        <select id="urgency" name="urgency">
+          <option value="standard">Standard (1-2 weeks)</option>
+          <option value="priority">Priority (3-7 days)</option>
+          <option value="urgent">Urgent (1-3 days) - Additional fee applies</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Project Details *</label>
+        <textarea id="message" name="message" rows="5" placeholder="Describe your furniture item, dimensions, specific damage, and any special requirements..." required minlength="10" maxlength="500"></textarea>
+        <span class="error-message" id="messageError"></span>
+      </div>
+
+      <input type="hidden" name="_subject" value="New Service Enquiry - Mkhize & Sons">
+      <input type="hidden" name="_replyto" id="_replyto">
+      
+      <button type="submit" id="submitBtn">Submit Enquiry</button>
+      
+      <div id="formMessage" class="form-message"></div>
+    </form>
+
+    <!-- Service Pricing Guide -->
+    <div class="pricing-guide">
+      <h3>Service Pricing Guide</h3>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h4>General Repairs</h4>
+          <p class="price">R450 - R1,200</p>
+          <p>Basic fixes, leg replacements, drawer repairs</p>
+        </div>
+        <div class="pricing-card">
+          <h4>Wood Restoration</h4>
+          <p class="price">R800 - R2,500</p>
+          <p>Sanding, staining, refinishing</p>
+        </div>
+        <div class="pricing-card">
+          <h4>Antique Restoration</h4>
+          <p class="price">R2,000 - R6,000</p>
+          <p>Specialized care for valuable pieces</p>
+        </div>
+      </div>
+      <p class="note">* Final pricing depends on project complexity and materials required</p>
+    </div>
+
+    <!-- Contact Information Table -->
+    <h2>Our Workshop Locations & Contact Information</h2>
+    <table>
+      <tr>
+        <th>Town</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Hours</th>
+      </tr>
+      <tr>
+        <td>Durban (Main Branch)</td>
+        <td>123 Workshop Road, Durban</td>
+        <td>+27 71 000 0000</td>
+        <td>Mon–Fri: 8am–5pm<br>Sat: 8am–12pm</td>
+      </tr>
+      <tr>
+        <td>Pietermaritzburg</td>
+        <td>45 Church Street, Pietermaritzburg</td>
+        <td>+27 71 111 2222</td>
+        <td>Mon–Fri: 8am–5pm</td>
+      </tr>
+      <tr>
+        <td>Richards Bay</td>
+        <td>88 Harbour Road, Richards Bay</td>
+        <td>+27 71 333 4444</td>
+        <td>Mon–Sat: 9am–6pm</td>
+      </tr>
+      <tr>
+        <td>Port Shepstone</td>
+        <td>12 Marine Drive, Port Shepstone</td>
+        <td>+27 71 555 6666</td>
+        <td>Mon–Fri: 8am–4pm</td>
+      </tr>
+    </table>
+
+    <!-- Email Info -->
+    <h3>Email Us</h3>
+    <p><strong>Email:</strong> 
+      <a href="mailto:info@mkhizefurniturerepairs.co.za">info@mkhizefurniturerepairs.co.za</a>
+    </p>
+
+    <!-- Embedded Map -->
+    <h3>Find Our Main Workshop</h3>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.789012345678!2d31.00000000000001!3d-29.000000000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDAwJzAwLjAiUyAzMcKwMDAnMDAuMCJF!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza"
+        width="100%" 
+        height="350" 
+        style="border:0; border-radius: 8px;" 
+        allowfullscreen 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mkhize & Sons Furniture Repairs Main Workshop Location">
+      </iframe>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 WebDesignsByMbali | Mkhize & Sons Furniture Repairs</p>
+    <p>Branches: Durban | Pietermaritzburg | Richards Bay | Port Shepstone</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const enquiryForm = document.getElementById('enquiryForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const formMessage = document.getElementById('formMessage');
+      const serviceSelect = document.getElementById('service');
+      const serviceCost = document.getElementById('serviceCost');
+
+      // Set reply-to email dynamically
+      const emailInput = document.getElementById('email');
+      const replyToInput = document.getElementById('_replyto');
+      
+      emailInput.addEventListener('input', function() {
+        replyToInput.value = this.value;
+      });
+
+      // Service cost calculation
+      serviceSelect.addEventListener('change', calculateServiceCost);
+
+      enquiryForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        if (validateForm()) {
+          submitForm();
+        }
+      });
+
+      function calculateServiceCost() {
+        const service = serviceSelect.value;
+        const costs = {
+          'general': 'R450 - R1,200',
+          'wood': 'R800 - R2,500',
+          'reupholstery': 'R1,500 - R4,000',
+          'antique': 'R2,000 - R6,000',
+          'assembly': 'R300 - R800',
+          'other': 'Price on assessment'
+        };
+
+        if (service && costs[service]) {
+          serviceCost.innerHTML = `
+            <strong>Estimated Cost Range:</strong> ${costs[service]}<br>
+            <small>Final pricing confirmed after assessment</small>
+          `;
+          serviceCost.style.display = 'block';
+        } else {
+          serviceCost.style.display = 'none';
+        }
+      }
+
+      function validateForm() {
+        let isValid = true;
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const phone = document.getElementById('phone');
+        const service = document.getElementById('service');
+        const message = document.getElementById('message');
+
+        // Clear previous errors
+        clearErrors();
+
+        // Name validation
+        if (name.value.trim().length < 2) {
+          showError('nameError', 'Please enter your full name (minimum 2 characters)');
+          isValid = false;
+        }
+
+        // Email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email.value)) {
+          showError('emailError', 'Please enter a valid email address');
+          isValid = false;
+        }
+
+        // Phone validation
+        if (!isValidPhone(phone.value)) {
+          showError('phoneError', 'Please enter a valid South African phone number');
+          isValid = false;
+        }
+
+        // Service validation
+        if (service.value === '') {
+          showError('serviceError', 'Please select a service');
+          isValid = false;
+        }
+
+        // Message validation
+        if (message.value.trim().length < 10) {
+          showError('messageError', 'Please provide more details about your project (minimum 10 characters)');
+          isValid = false;
+        }
+
+        if (message.value.trim().length > 500) {
+          showError('messageError', 'Project details must be less than 500 characters');
+          isValid = false;
+        }
+
+        return isValid;
+      }
+
+      function isValidPhone(phone) {
+        const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+        return phoneRegex.test(phone.replace(/\s/g, ''));
+      }
+
+      function showError(elementId, message) {
+        const errorElement = document.getElementById(elementId);
+        if (errorElement) {
+          errorElement.textContent = message;
+          errorElement.style.display = 'block';
+        }
+      }
+
+      function clearErrors() {
+        const errors = document.querySelectorAll('.error-message');
+        errors.forEach(error => {
+          error.textContent = '';
+          error.style.display = 'none';
+        });
+      }
+
+      function submitForm() {
+        // Show loading state
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Processing...';
+        enquiryForm.classList.add('loading');
+
+        // Get service name for display
+        const serviceName = serviceSelect.options[serviceSelect.selectedIndex].text;
+        const urgency = document.getElementById('urgency').options[document.getElementById('urgency').selectedIndex].text;
+
+        // Simulate AJAX submission
+        setTimeout(() => {
+          // Save to localStorage for demo purposes
+          const formData = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            service: serviceSelect.value,
+            serviceName: serviceName,
+            urgency: urgency,
+            message: document.getElementById('message').value,
+            timestamp: new Date().toISOString()
+          };
+          
+          localStorage.setItem('enquirySubmission', JSON.stringify(formData));
+
+          // Show success message with service-specific response
+          formMessage.innerHTML = `
+            <strong>Thank you for your enquiry!</strong><br>
+            We have received your request for <strong>${serviceName}</strong>.<br>
+            Estimated response time: <strong>${getResponseTime(urgency)}</strong><br>
+            Our team will contact you with availability and exact pricing.
+          `;
+          formMessage.className = 'form-message success';
+          formMessage.style.display = 'block';
+
+          // Reset form
+          enquiryForm.reset();
+          serviceCost.style.display = 'none';
+          
+          // Reset button state
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit Enquiry';
+          enquiryForm.classList.remove('loading');
+
+          // Scroll to message
+          formMessage.scrollIntoView({ behavior: 'smooth' });
+
+        }, 2000);
+      }
+
+      function getResponseTime(urgency) {
+        const responseTimes = {
+          'Standard (1-2 weeks)': '2 hours',
+          'Priority (3-7 days)': '1 hour', 
+          'Urgent (1-3 days) - Additional fee applies': '30 minutes'
+        };
+        return responseTimes[urgency] || '2 hours';
+      }
+
+      // Add input event listeners for real-time validation
+      const inputs = enquiryForm.querySelectorAll('input, textarea, select');
+      inputs.forEach(input => {
+        input.addEventListener('blur', function() {
+          if (this.value.trim() !== '') {
+            validateField(this);
+          }
+        });
+      });
+
+      function validateField(field) {
+        switch(field.id) {
+          case 'name':
+            if (field.value.trim().length < 2) {
+              showError('nameError', 'Name must be at least 2 characters');
+            } else {
+              clearFieldError('nameError');
+            }
+            break;
+          case 'email':
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(field.value)) {
+              showError('emailError', 'Please enter a valid email');
+            } else {
+              clearFieldError('emailError');
+            }
+            break;
+          case 'phone':
+            if (!isValidPhone(field.value)) {
+              showError('phoneError', 'Please enter a valid phone number');
+            } else {
+              clearFieldError('phoneError');
+            }
+            break;
+          case 'message':
+            if (field.value.trim().length < 10) {
+              showError('messageError', 'Please provide more project details');
+            } else if (field.value.trim().length > 500) {
+              showError('messageError', 'Project details too long');
+            } else {
+              clearFieldError('messageError');
+            }
+            break;
+        }
+      }
+
+      function clearFieldError(errorId) {
+        const errorElement = document.getElementById(errorId);
+        if (errorElement) {
+          errorElement.textContent = '';
+          errorElement.style.display = 'none';
+        }
+      }
+    });
+  </script>
+
+  <script>
+// Enhanced Scroll Effect for Header
+window.addEventListener("scroll", function() {
+  const header = document.querySelector("header");
+  if (window.scrollY > 50) {
+    header.style.backgroundColor = "#243324"; // Slightly darker military green
+    header.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.5)";
+    header.style.backdropFilter = "blur(10px)"; // Modern glass effect
+  } else {
+    header.style.backgroundColor = "#2F3E2F"; // Original military green
+    header.style.boxShadow = "0 4px 15px rgba(0, 0, 0, 0.3)";
+    header.style.backdropFilter = "none";
+  }
+});
+</script>
+
+</body>
+</html>

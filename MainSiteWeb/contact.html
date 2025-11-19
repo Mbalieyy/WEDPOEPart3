@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Mkhize & Sons Furniture Repairs for general inquiries, support, or feedback. We're here to help with all your furniture restoration needs in Durban and KwaZulu-Natal.">
+  <meta name="keywords" content="furniture repair contact, wood restoration inquiry, Durban furniture services, KZN furniture repair contact, customer support">
+  <meta name="author" content="Mkhize & Sons Furniture Repairs">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Contact Us - Mkhize & Sons Furniture Repairs">
+  <meta property="og:description" content="Get in touch with Mkhize & Sons for furniture repairs, restoration services, and general inquiries in Durban and KwaZulu-Natal.">
+  <meta property="og:image" content="Images/logo 2.jpg">
+  <meta property="og:url" content="https://yourdomain.com/contact.html">
+  <meta property="og:type" content="website">
+
+  <title>Contact Us - Mkhize & Sons Furniture Repairs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Mkhize & Sons Furniture Repairs</h1>
+    <nav>
+      <a href="index.html">Home</a>|
+      <a href="about.html">About Us</a>|
+      <a href="services.html">Services</a>|
+      <a href="enquiry.html">Enquiry</a>|
+      <a href="gallery.html">Gallery</a>|
+      <a href="contact.html">Contact</a>|
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Whether you have a general question, need support, or want to provide feedback, our team is here to help. Fill out the form below or visit one of our workshops.</p>
+
+    <!-- Contact Form -->
+    <form id="contactForm" action="https://formspree.io/f/your-form-id-here" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" name="name" id="name" required placeholder="Enter your full name" minlength="2" maxlength="50">
+        <span class="error-message" id="nameError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" name="email" id="email" required placeholder="Enter your email address">
+        <span class="error-message" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" pattern="[0-9+\-\s()]{10,}">
+        <span class="error-message" id="phoneError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="messageType">Message Type *</label>
+        <select name="messageType" id="messageType" required>
+          <option value="">Select message type</option>
+          <option value="general">General Inquiry</option>
+          <option value="feedback">Feedback</option>
+          <option value="support">Customer Support</option>
+          <option value="complaint">Complaint</option>
+          <option value="partnership">Business Partnership</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message *</label>
+        <textarea name="message" id="message" rows="6" required placeholder="Please type your message here..." minlength="10" maxlength="1000"></textarea>
+        <span class="error-message" id="messageError"></span>
+      </div>
+
+      <input type="hidden" name="_subject" value="New Contact Form Submission - Mkhize & Sons">
+      <input type="hidden" name="_replyto" id="_replyto">
+      
+      <button type="submit" id="submitBtn">Send Message</button>
+      
+      <div id="formMessage" class="form-message"></div>
+    </form>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <h3>Other Ways to Reach Us</h3>
+      
+      <div class="contact-details">
+        <div class="contact-item">
+          <h4> Email</h4>
+          <p><a href="mailto:info@mkhizefurniturerepairs.co.za">info@mkhizefurniturerepairs.co.za</a></p>
+        </div>
+        
+        <div class="contact-item">
+          <h4> Phone</h4>
+          <p>+27 71 000 0000 (Main Branch - Durban)</p>
+        </div>
+        
+        <div class="contact-item">
+          <h4> Response Time</h4>
+          <p>Within 24 hours during business days</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Workshop Locations -->
+    <h3>Our Workshop Locations</h3>
+    <div class="locations-grid">
+      <div class="location-card">
+        <h4>Durban (Main Branch)</h4>
+        <p>123 Workshop Road, Durban</p>
+        <p>Phone: +27 71 000 0000</p>
+        <p>Hours: Mon-Fri 8am-5pm, Sat 8am-12pm</p>
+      </div>
+      
+      <div class="location-card">
+        <h4>Pietermaritzburg</h4>
+        <p>45 Church Street, Pietermaritzburg</p>
+        <p>Phone: +27 71 111 2222</p>
+        <p>Hours: Mon-Fri 8am-5pm</p>
+      </div>
+      
+      <div class="location-card">
+        <h4>Richards Bay</h4>
+        <p>88 Harbour Road, Richards Bay</p>
+        <p>Phone: +27 71 333 4444</p>
+        <p>Hours: Mon-Sat 9am-6pm</p>
+      </div>
+    </div>
+
+    <!-- Google Map Embed -->
+    <h3>Find Us in Durban</h3>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.789012345678!2d31.00000000000001!3d-29.000000000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDAwJzAwLjAiUyAzMcKwMDAnMDAuMCJF!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza"
+        width="100%" 
+        height="400" 
+        style="border:0; border-radius: 8px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mkhize & Sons Furniture Repairs Location in Durban">
+      </iframe>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 WebDesignsByMbali | Mkhize & Sons Furniture Repairs</p>
+    <p>Quality Furniture Repairs Since 1995</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const formMessage = document.getElementById('formMessage');
+
+      // Set reply-to email dynamically
+      const emailInput = document.getElementById('email');
+      const replyToInput = document.getElementById('_replyto');
+      
+      emailInput.addEventListener('input', function() {
+        replyToInput.value = this.value;
+      });
+
+      contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        if (validateForm()) {
+          submitForm();
+        }
+      });
+
+      function validateForm() {
+        let isValid = true;
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const message = document.getElementById('message');
+        const phone = document.getElementById('phone');
+
+        // Clear previous errors
+        clearErrors();
+
+        // Name validation
+        if (name.value.trim().length < 2) {
+          showError('nameError', 'Please enter your full name (minimum 2 characters)');
+          isValid = false;
+        }
+
+        // Email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email.value)) {
+          showError('emailError', 'Please enter a valid email address');
+          isValid = false;
+        }
+
+        // Phone validation (optional but if provided, validate)
+        if (phone.value && !isValidPhone(phone.value)) {
+          showError('phoneError', 'Please enter a valid phone number');
+          isValid = false;
+        }
+
+        // Message validation
+        if (message.value.trim().length < 10) {
+          showError('messageError', 'Message must be at least 10 characters long');
+          isValid = false;
+        }
+
+        if (message.value.trim().length > 1000) {
+          showError('messageError', 'Message must be less than 1000 characters');
+          isValid = false;
+        }
+
+        return isValid;
+      }
+
+      function isValidPhone(phone) {
+        const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+        return phoneRegex.test(phone.replace(/\s/g, ''));
+      }
+
+      function showError(elementId, message) {
+        const errorElement = document.getElementById(elementId);
+        if (errorElement) {
+          errorElement.textContent = message;
+          errorElement.style.display = 'block';
+        }
+      }
+
+      function clearErrors() {
+        const errors = document.querySelectorAll('.error-message');
+        errors.forEach(error => {
+          error.textContent = '';
+          error.style.display = 'none';
+        });
+      }
+
+      function submitForm() {
+        // Show loading state
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+        contactForm.classList.add('loading');
+
+        // Simulate AJAX submission (replace with actual Formspree submission)
+        setTimeout(() => {
+          // Save to localStorage for demo purposes
+          const formData = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            messageType: document.getElementById('messageType').value,
+            message: document.getElementById('message').value,
+            timestamp: new Date().toISOString()
+          };
+          
+          localStorage.setItem('contactSubmission', JSON.stringify(formData));
+
+          // Show success message
+          formMessage.innerHTML = `
+            <strong>Thank you for your message!</strong><br>
+            We have received your <strong>${document.getElementById('messageType').options[document.getElementById('messageType').selectedIndex].text}</strong> 
+            and will respond within 24 hours.
+          `;
+          formMessage.className = 'form-message success';
+          formMessage.style.display = 'block';
+
+          // Reset form
+          contactForm.reset();
+          
+          // Reset button state
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Message';
+          contactForm.classList.remove('loading');
+
+          // Scroll to message
+          formMessage.scrollIntoView({ behavior: 'smooth' });
+
+          // Actually submit to Formspree (uncomment for production)
+          // contactForm.submit();
+
+        }, 2000);
+      }
+
+      // Add input event listeners for real-time validation
+      const inputs = contactForm.querySelectorAll('input, textarea, select');
+      inputs.forEach(input => {
+        input.addEventListener('blur', function() {
+          if (this.value.trim() !== '') {
+            validateField(this);
+          }
+        });
+      });
+
+      function validateField(field) {
+        switch(field.id) {
+          case 'name':
+            if (field.value.trim().length < 2) {
+              showError('nameError', 'Name must be at least 2 characters');
+            } else {
+              clearFieldError('nameError');
+            }
+            break;
+          case 'email':
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(field.value)) {
+              showError('emailError', 'Please enter a valid email');
+            } else {
+              clearFieldError('emailError');
+            }
+            break;
+          case 'phone':
+            if (field.value && !isValidPhone(field.value)) {
+              showError('phoneError', 'Please enter a valid phone number');
+            } else {
+              clearFieldError('phoneError');
+            }
+            break;
+          case 'message':
+            if (field.value.trim().length < 10) {
+              showError('messageError', 'Message must be at least 10 characters');
+            } else if (field.value.trim().length > 1000) {
+              showError('messageError', 'Message must be less than 1000 characters');
+            } else {
+              clearFieldError('messageError');
+            }
+            break;
+        }
+      }
+
+      function clearFieldError(errorId) {
+        const errorElement = document.getElementById(errorId);
+        if (errorElement) {
+          errorElement.textContent = '';
+          errorElement.style.display = 'none';
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
